@@ -15,7 +15,7 @@ es.multiplo<- function(x,y)
 #################################################### 
 
 #Problema 1
-
+problema <- '1'
 #Consigna: Find the sum of all the multiples of 3 or 5 below 1000.
 
 ElapsedTime <- system.time({
@@ -34,13 +34,12 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %d\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 #Problema 2
-
-
+problema <-'2'
 #Consigna: By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
 ElapsedTime <- system.time({
@@ -59,13 +58,12 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %d\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
-
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 #Problema 3
-
+problema<-'3'
 #Consigna: What is the largest prime factor of the number 600851475143 ?
 
 ElapsedTime <- system.time({
@@ -87,13 +85,13 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %d\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
 #Problema 4
-
+problema <-'4'
 #Consigna: Find the largest palindrome made from the product of two 3-digit numbers.
 
 ElapsedTime <- system.time({
@@ -116,13 +114,13 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %d\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
 #Problema 5
-
+problema <- '5'
 #Consigna: What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
 ElapsedTime <- system.time({
@@ -141,8 +139,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %d\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -152,7 +150,7 @@ cat(sprintf("\nLa respuesta es:  %d\nTiempo de procesamiento:  %d minutos y %f s
 
 
 #Problema 6
-
+problema <- '6'
 #Consigna: Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 ElapsedTime <- system.time({
@@ -170,13 +168,13 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %d\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
 #Problema 7
-
+problema <-'7'
 #Consigna: What is the 10 001st prime number?
 
 ElapsedTime <- system.time({
@@ -208,15 +206,14 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %d\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
-
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
 
 #Problema 8
-
+problema <-'8'
 #Consigna: Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
 
 ElapsedTime <- system.time({
@@ -242,14 +239,15 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
 
 
 #Problema 9
+problema <-'9'
 #Consigna: There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc.
 ElapsedTime <- system.time({
   ##########################
@@ -280,14 +278,14 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %d\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
 
 #Problema 10
-
+problema<-'10'
 #Consigna: Find the sum of all the primes below two million.
 
 ElapsedTime <- system.time({
@@ -318,8 +316,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -331,14 +329,12 @@ for(C in c(997:335)){
     if(A+B+C==1000 & A%%1==0 & A!=0){print(A*B*C);break}
   }
 }
-print("Lucho PT.")
-
 
 
 
 
 #Problema 11
-
+problema <- '11'
 #Consigna: 
 
 # 08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
@@ -362,7 +358,7 @@ print("Lucho PT.")
 # 20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54
 # 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
 
-#What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
+#What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20ï¿½20 grid?
 ElapsedTime <- system.time({
 #   ##########################
 
@@ -437,11 +433,12 @@ respuesta
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            respuesta, ElapsedMins, ElapsedSecs))
+
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
 
 #Problema 12
-
+problema <- '12'
 #Consigna: 
 
 ElapsedTime <- system.time({
@@ -455,8 +452,7 @@ ElapsedTime <- system.time({
 })[3]
   ElapsedMins <- floor(ElapsedTime/60)
   ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-  cat(sprintf("\nLa respuesta es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-              respuesta, ElapsedMins, ElapsedSecs))
-  
+cat(sprintf("\nLa respuesta al problema %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, respuesta, ElapsedMins, ElapsedSecs))
   
 
