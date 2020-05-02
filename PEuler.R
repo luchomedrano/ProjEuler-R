@@ -35,8 +35,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 #Problema 2
@@ -60,8 +60,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 #Problema 3
@@ -88,8 +88,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -118,8 +118,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -144,8 +144,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -174,8 +174,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -213,8 +213,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -247,8 +247,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -287,8 +287,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -327,8 +327,8 @@ ElapsedTime <- system.time({
 })[3]
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 
 
@@ -449,8 +449,8 @@ respuesta
 ElapsedMins <- floor(ElapsedTime/60)
 ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
 
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
-            problema, title, respuesta, ElapsedMins, ElapsedSecs)))
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+            problema, title, respuesta, ElapsedMins, ElapsedSecs))
 
 #Problema 12
 problema <- '12'
@@ -483,7 +483,7 @@ ElapsedTime <- system.time({
 })[3]
   ElapsedMins <- floor(ElapsedTime/60)
   ElapsedSecs <- (ElapsedTime-ElapsedMins*60)
-cat(sprintf("\nLa respuesta al problema %s - %s es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
+cat(sprintf("\nLa respuesta al problema %s - %s - es:  %f\nTiempo de procesamiento:  %d minutos y %f segundos\n",
             problema, title, respuesta, ElapsedMins, ElapsedSecs))
   
 
