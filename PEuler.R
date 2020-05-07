@@ -475,10 +475,25 @@ title <- 'Highly divisible triangular number'
 ElapsedTime <- system.time({
   ##########################
   
+ # Definir fórmula de Nt
+ steps <- 600
+ Nt <- matrix(NA,nrow=steps, ncol=2)
  
-            
-            
-            
+ for (i in 0:steps){
+ 
+ Nt[i,]<- c(i,i*(i+1)/2)
+
+ }
+ print(Nt)
+#Tengo los num triang
+
+#respuesta del largest prime factors
+
+
+ 
+ # Es múltiplo
+ # Test pocos números
+
             ##########################  
 })[3]
   ElapsedMins <- floor(ElapsedTime/60)
