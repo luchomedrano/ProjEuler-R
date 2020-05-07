@@ -477,21 +477,30 @@ ElapsedTime <- system.time({
   ##########################
   
  # Definir fórmula de Nt
- steps <- 600
- Nt <- matrix(NA,nrow=steps, ncol=2)
+ steps <- 5000
+ Nt <- matrix(NA,nrow=steps, ncol=3)
  
  for (i in 0:steps){
  
- Nt[i,]<- c(i,i*(i+1)/2)
-
- }
- print(Nt)
+   numt <- i*(i+1)/2
+   
+   nfact = 1
+   
+   for(j in 1:numt+1) {
+     if((numt %% j) == 0) {
+       nfact <- nfact+1
+     }}
+    Nt[i,]<- c(i,numt,nfact)
+}
+print(Nt)
+plot(Nt)
 #Tengo los num triang
 
 #respuesta del largest prime factors
 
+plot(Nt)
 
- 
+respuesta <-max(Nt[,3])
  # Es múltiplo
  # Test pocos números
 
